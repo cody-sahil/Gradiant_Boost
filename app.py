@@ -6,7 +6,7 @@ from flask import Flask, render_template_string, request
 app = Flask(__name__)
 
 # Load the trained GradientBoostingRegressor model
-MODEL_PATH = "gradient.pkl"
+MODEL_PATH = "gradiant.pkl"
 model = None
 
 try:
